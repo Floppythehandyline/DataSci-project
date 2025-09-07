@@ -1,0 +1,16 @@
+import numpy as n
+a = n.arange(1,5)
+print(a,'\n')
+b = n.arange(10,0,-2)
+print(b,'\n')
+c = n.arange(1,7,dtype=int)
+print(c.astype('f'),'\n')
+
+AA = n.linspace(1,4,6)
+print(AA,'\n')
+BB = n.linspace(1,4,12)
+print(BB,'\n')
+CC = n.linspace(6,1,12)
+print(CC,'\n')
+DD = n.logspace(1,10,10,base=2)
+print(DD)
