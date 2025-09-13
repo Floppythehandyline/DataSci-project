@@ -5,3 +5,4 @@ br = n.array([[11,13],
               [17,19]])
 print(ar.dot(br))
 print(br.dot(ar))
+#ar dot br != br dot ar

@@ -5,7 +5,7 @@ ar = np.insert(ar,4,21)
 print(ar)
 ar = np.insert(ar,(3,7),777)
 print(ar,'\n')
-
+#จะ insert ไปยัง index ที่กำหนด
 br = np.array([[2,3,5],
                [7,11,13]])
 print(br,"\n")
